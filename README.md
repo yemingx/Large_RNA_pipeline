@@ -21,9 +21,9 @@ StringTie v1.3.4d\
 featureCounts v1.6.3
 
 Reference index:\
-Prebuilt hisat2 index (genome.fa)\
+Prebuilt hisat2 index\
 GTF file\
-Trimmomatic adaptor files according to the sequencing platform (TruSeq3-PE.fa)
+Trimmomatic adaptor files according to the sequencing platform
 
 ### Fastq nomination
 
