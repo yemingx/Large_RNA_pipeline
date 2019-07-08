@@ -14,15 +14,15 @@ System:
 Ubuntu or macOS
 
 Software dependencies:
-Trimmomatic v0.33
-FastQC v0.11.8
-HISAT2 v2.1.0
-StringTie v1.3.4d
+Trimmomatic v0.33,
+FastQC v0.11.8,
+HISAT2 v2.1.0,
+StringTie v1.3.4d,
 featureCounts v1.6.3
 
 Reference index:
-Prebuilt hisat2 index (genome.fa)
-GTF file
+Prebuilt hisat2 index (genome.fa),
+GTF file,
 Trimmomatic adaptor files according to the sequencing platform (TruSeq3-PE.fa)
 
 ### Fastq nomination
