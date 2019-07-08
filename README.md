@@ -36,12 +36,12 @@ AAwt-FFround-TTtestis-SS1_L001_R1.fq
 
 ```
 
-AA: animal. AAwt means the sample is wild type.
-FF: fraction or function. FFround means round spermatid.
-TT: tissue. TTtestis means the sample is the testis tissue.
-SS: replicate number.
-L: lane number. If the sample is sequenced twice in different lane, "L001" and "L002" should be assigned.
-R: read number. For paired-end sequencing, the fastq files should contain R1 and R2. And R1 only for single-end.
+AA: animal. AAwt means the sample is wild type.\
+FF: fraction or function. FFround means round spermatid.\
+TT: tissue. TTtestis means the sample is the testis tissue.\
+SS: replicate number.\
+L: lane number. If the sample is sequenced twice in different lane, "L001" and "L002" should be assigned.\
+R: read number. For paired-end sequencing, the fastq files should contain R1 and R2. And R1 only for single-end.\
 
 
 The arguments should be numbers or lower case. Arguments after AA, FF, and TT are necessary but not required.
@@ -87,11 +87,11 @@ TruSeq2-PE.fa		TruSeq3-PE.fa
 
 ```
 
-In the example, 
-"/Users/yemingx/Yan_lab/lRNA_project/" is the folder for all large RNA projects.
-"/Users/yemingx/Yan_lab/lRNA_project/spermatogenesis" is the specific large RNA project folder, which contains the renamed fastq files under the folder named "raw_fastq".
-"/Users/yemingx/Yan_lab/lRNA_project/hisat2Genome" is the hisat2 genome index folder, which contains mm10 gtf and prebuilt hisat2 index.
-"/Users/yemingx/Yan_lab/lRNA_project/reference" is the reference folder, which contains the trimmomatic adaptor sequences.
+In the example, \
+"/Users/yemingx/Yan_lab/lRNA_project/" is the folder for all large RNA projects.\
+"/Users/yemingx/Yan_lab/lRNA_project/spermatogenesis" is the specific large RNA project folder, which contains the renamed fastq files under the folder named "raw_fastq".\
+"/Users/yemingx/Yan_lab/lRNA_project/hisat2Genome" is the hisat2 genome index folder, which contains mm10 gtf and prebuilt hisat2 index.\
+"/Users/yemingx/Yan_lab/lRNA_project/reference" is the reference folder, which contains the trimmomatic adaptor sequences.\
 
 
 ## Usage
