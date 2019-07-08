@@ -30,7 +30,7 @@ Trimmomatic adaptor files according to the sequencing platform
 The fastq files must be renamed according to the following policy.
 AA[animal]-FF[fraction]-TT[tissue]-SS[replicate number]_L[lane number]_R[read number]fq
 
-For example
+For example:
 ```
 AAwt-FFround-TTtestis-SS1_L001_R1.fq
 
@@ -119,7 +119,9 @@ sudo chmod 755 ./fastq_hisat2_stringtie_07_08_19.sh
 
 ## Arguments
 
-Thread number, reference and trimmomatic adaptor sequence should be preset to each project before running the script. The arguments are at the first few lines of the script.
+Thread number and directories for the genomic index and references should be preset to each project before running the script. The arguments are at the first few lines of the script.
+
+For example:
 
 ```
 thread='8'
