@@ -3,6 +3,7 @@
 Large RNA data analysis from illumina raw fastq to tabular data. 
 This pipeline is designed to be deployed on local computing with super user permission.
 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -93,8 +94,6 @@ In the example,
 "/Users/yemingx/Yan_lab/lRNA_project/reference" is the reference folder, which contains the trimmomatic adaptor sequences.
 
 
-### Setting function options
-
 ## Usage
 
 1. Get the project folders, genomic index, gtf, and trimmomatic adaptor reference prepared as described in the File structure section.
@@ -116,6 +115,8 @@ sudo chmod 755 ./fastq_hisat2_stringtie_07_08_19.sh
 ./fastq_hisat2_stringtie_07_08_19.sh 2>&1 | tee make.log
 
 ```
+
+
 ## Arguments
 
 Thread number, reference and trimmomatic adaptor sequence should be preset to each project before running the script. The arguments are at the first few lines of the script.
@@ -129,6 +130,7 @@ adaptor_SE="${project_dir}/reference/trim/TruSeq3-SE.fa"
 adaptor_PE="${project_dir}/reference/trim/TruSeq3-PE.fa"
 ```
 
+
 ## Output
 The script will trim the raw fastq file, generate outputs from fastqc, hisat2, stringtie, and featureCounts in each folder accordingly.
 The hisat2 alignment parameters are adjusted for the better sensitivity according the following paper.
@@ -140,17 +142,21 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5792058/
 * Bash 3.2.57(1) - macOS Bash used
 * Bash 4.4.19(1) - Ubuntu Bash used
 
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
 
 ## Authors
 
 * **Yeming Xie** - *Chong Tang* - *Tian Yu* - [Yanlab](http://www.weiyanlab.com/home.html)
 
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 
 ## Acknowledgments
 
