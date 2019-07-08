@@ -14,15 +14,15 @@ System:
 Ubuntu or macOS
 
 Software dependencies:
-Trimmomatic v0.33,
-FastQC v0.11.8,
-HISAT2 v2.1.0,
-StringTie v1.3.4d,
+Trimmomatic v0.33\
+FastQC v0.11.8\
+HISAT2 v2.1.0\
+StringTie v1.3.4d\
 featureCounts v1.6.3
 
 Reference index:
-Prebuilt hisat2 index (genome.fa),
-GTF file,
+Prebuilt hisat2 index (genome.fa)\
+GTF file\
 Trimmomatic adaptor files according to the sequencing platform (TruSeq3-PE.fa)
 
 ### Fastq nomination
@@ -60,9 +60,9 @@ Files should be organized as described below.
 
 Top level:  folder for all large RNA projects
 
-Secondary: specific large RNA project folder
-           hisat2 genome index folder
-           reference folder
+Secondary: specific large RNA project folder\
+           hisat2 genome index folder\
+           reference folder\
 
 The renamed fastq files must be put in the folder "raw_fastq" under the specific large RNA project folder.
 
